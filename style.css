@@ -1,0 +1,129 @@
+body{
+background-color: lightblue;
+}
+
+.header{
+width: 99.95%;
+height: 50px;
+display: flex;
+align-items: center;
+background-color: #F8C2DA;
+float: inline-start;
+}
+
+.logo{
+width: 300px;
+margin-left: 40px;
+display: flex;
+}
+
+.nav{
+display:flex;
+justify-content: space-around;
+align-items: center;
+width:530px;
+margin-top: 2px;
+margin-left: 350px;
+}
+
+.hero{
+width: 99.95%;
+height: 457.9px;
+background-color: #FEF6FA;
+}
+
+.products{
+width: 99.95%;
+height: 330px;
+display: flex;
+float: left;
+background-color: #E2F3F8;
+}
+
+.title1{
+margin-left: 435px;
+width: 500px;
+display: flex;
+margin-top: -50px;
+}
+
+.goods{
+width: 95%;
+height: 150px;
+margin-top: 140px;
+margin-left: -900px;
+display: flex;
+justify-content: space-around;
+}
+
+.newsletter{
+width: 99.95%;
+height: 330px;
+display: flex;
+float: left;
+background-color: #F8C2DA;
+}
+
+.email{
+width: 95%;
+height: 150px;
+margin-top: -20px;
+margin-left: -740px;
+justify-content: space-around;
+}
+
+.title2{
+margin-left: 350px;
+width: 900px;
+display: flex;
+margin-top: -50px;
+}
+
+.ContactUs{
+width: 99.95%;
+height: 330px;
+display: flex;
+float: left;
+background-color: #E2F3F8;
+}
+
+.title3{
+margin-left: 460px;
+width: 900px;
+display: flex;
+margin-top: -50px;
+}
+
+.info{
+width: 95%;
+height: 150px;
+margin-top: 135px;
+margin-left: -587px;
+justify-content: space-around;
+}
+
+h1{
+font-size: 30px;
+
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+}
+
+h2{
+font-size: 70px;
+font-family: "Oswald", sans-serif;
+font-optical-sizing: auto;
+font-weight: bold;
+font-style: normal;
+}
+
+h3{
+font-size: 20px;
+font-family: "Oswald", sans-serif;
+font-optical-sizing: auto;
+font-weight: lighter;
+font-style: normal;
+}
+
