@@ -127,6 +127,149 @@ color: black;
   margin-top: -10px;
 }
 
+.search-box{
+  width: 100%;
+  height: 60px;
+  background-color: #F8C2DA;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: right;
+}
+
+.search-bar{
+  margin-right: 130px;
+}
+
+.cart-box{
+  width: 100%;
+  height: 340px;
+  background-color: #F8C2DA;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.afc{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 120px;
+  justify-content: flex-start;
+}
+
+.afc-pic{
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+}
+
+.afc-title{
+  width: 200px;
+  font-size: 30px;
+  margin-left: 10px;
+  align-content: center;
+  height: 100px;
+}
+
+.nomore{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex: row;
+  margin-left: 120px;
+  margin-top: -20px;
+}
+
+.nomore-box{
+  width: 400px;
+  height: 100px;
+  align-content: center;
+  margin-left: 20px;
+  font-size: 40px;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.purchase{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-bottom: 30px;
+}
+
+.purchase-box2{
+  width: 200px;
+  height: 100px;
+  display: flex;
+  margin-right: 80px;
+  flex-direction: column;
+}
+
+.price{
+  width: 200px;
+  height: 50px;
+}
+.buy{
+  width: 175px;
+  height: 50px;
+  font-size: 30px;
+  text-align: center;
+  align-content: center;
+  background-color: white;
+  border-color: black;
+  border-style: solid;
+}
+
+.angel-pic{
+  width: 250px;
+  height: 250px;
+  margin-left: 350px;
+  align-items: center;
+}
+
+.purchase-box{
+  width:150px;
+  height: 200px;
+  margin-top: -40px;
+  margin-right: 400px;
+}
+
+.amount{
+  width: 200px;
+  height: 50px;
+  margin-top: 95px;
+}
+.angel-info{
+  width: 200px;
+  height: 50px;
+  font-size: 25px;
+}
+
+.atc{
+  width: 130px;
+  height: 25px;
+  font-size: 20px;
+  text-align: center;
+  border-color: black;
+  border-radius: 15px;
+  border-style: solid;
+  background-color: white;
+}
+
+.atc a{
+  text-decoration: none;
+  color: black;
+  }
+
 .hero{
   width: 100%;
   height: 340.9px;
@@ -203,6 +346,33 @@ color: black;
   height: 200px;
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+}
+
+.angelfood{
+  width: 100%;
+  height: 500px;
+  background-color: #E2F3F8;
+  flex-direction: column;
+  display: flex;
+}
+
+.title5{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.angel-box{
+  width: 100%;
+  height: 400px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   justify-content: space-around;
 }
 
@@ -289,6 +459,29 @@ h3{
 
 p{
   font-size: 12px;
+}
+
+@media only screen 
+  and (min-device-width: 300px) 
+  and (max-device-width: 1000px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+@media only screen 
+  and (min-device-width: 300px) 
+  and (max-device-width: 1000px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+@media only screen 
+  and (min-device-width: 300px) 
+  and (max-device-width: 1000px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
 }
 
 
